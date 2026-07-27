@@ -1,1 +1,0 @@
-# Mall-shopper-segmentation-unsupervised-learning
