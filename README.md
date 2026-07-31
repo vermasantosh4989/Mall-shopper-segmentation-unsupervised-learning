@@ -206,43 +206,43 @@ After comparing all clustering algorithms using evaluation metrics:
 
 The K-Means visualization shows five distinct customer segments based on Annual Income and Spending Score.
 
-![K-Means Clustering](images/kmeans_clustering.png)
+![K-Means Clustering](image/kmeans_clustering.png)
 
 ### Elbow Method
 
 The Elbow Method indicates that **K = 5** is an appropriate choice because the reduction in inertia becomes less significant after five clusters.
 
-![Elbow Method](images/elbow_method.png)
+![Elbow Method](image/elbow_method.png)
 
 ### Silhouette Analysis
 
 The Silhouette Score reaches its highest value at approximately **K = 5**, supporting the selection of five clusters.
 
-![Silhouette Score](images/silhouette_score.png)
+![Silhouette Score](image/silhouette_score.png)
 
 ### Agglomerative Clustering
 
 Agglomerative Hierarchical Clustering also identifies five meaningful customer groups.
 
-![Agglomerative Clustering](images/agglomerative_clustering.png)
+![Agglomerative Clustering](image/agglomerative_clustering.png)
 
 ### Dendrogram
 
 The dendrogram provides a hierarchical view of customer grouping and supports the selection of approximately five clusters.
 
-![Dendrogram](images/dendrogram.png)
+![Dendrogram](image/dendrogram.png)
 
 ### DBSCAN Clustering
 
 DBSCAN identifies dense customer groups and also marks some customers as noise using cluster label `-1`.
 
-![DBSCAN Clustering](images/dbscan_clustering.png)
+![DBSCAN Clustering](image/dbscan_clustering.png)
 
 ### DBSCAN Cluster Profile
 
 The heatmap summarizes the average Age, Annual Income, and Spending Score for the DBSCAN groups.
 
-![DBSCAN Cluster Profile](images/dbscan_cluster_profile.png)
+![DBSCAN Cluster Profile](image/dbscan_cluster_profile.png)
 
 ---
 
